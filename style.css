@@ -1,0 +1,40 @@
+body {
+    font-family: 'Roboto',-apple-system,sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-flow:row wrap;
+    height: 75px;
+    width: auto;
+    background-color: #1F2937;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+    margin: 0px;
+}
+
+.header img {
+    width: 90px;
+    filter: drop-shadow(3px 3px 4px #222);
+}
+
+.header-links ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.header-links ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.header-links ul li a:hover {
+    color: aquamarine;
+
+}
