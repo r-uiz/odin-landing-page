@@ -69,7 +69,7 @@ button:active {
 .hero {
     display: flex;
     justify-content: space-between;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
     background-color: #fefbe9;
     padding: 150px 20% 275px;
